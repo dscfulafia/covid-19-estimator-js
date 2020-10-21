@@ -1,4 +1,4 @@
-// Code writteb by Tasiu kwpalong
+// Code written by Tasiu kwpalong
 const roundNumber = (numb) => {
   const stringNum = numb.toString().split('.')[0];
   return Number(stringNum);
@@ -59,5 +59,5 @@ const covid19ImpactEstimator = (data) => {
     }
   };
 };
-// export default covid19ImpactEstimator;
-module.exports = covid19ImpactEstimator;
+export default covid19ImpactEstimator;
+// module.exports = covid19ImpactEstimator;
